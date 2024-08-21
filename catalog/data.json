@@ -1,0 +1,77 @@
+[
+{
+  "model": "catalog.product",
+  "pk": "28a5658e-e318-425b-848d-c9255579094b",
+  "fields": {
+    "name": "MacBook Air",
+    "description": "Комплектация\r\nMacbook Air, Адаптер питания USB-C мощностью 30 Вт, Кабель USB‑C для зарядки (2 м)",
+    "price": 89990.0
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": "e9c47a68-5e6f-47a7-8ce3-168c95f63c98",
+  "fields": {
+    "name": "ASUS Vivobook Pro 15",
+    "description": "Погрузитесь в мир невероятной производительности и стиля с ноутбуком ASUS Vivobook Pro 15. Этот мощный ноутбук оснащен процессором AMD Ryzen 5 5600H, 16 ГБ оперативной памяти и SSD-накопителем, обеспечивая быструю работу и плавное выполнение задач. Графические возможности подкреплены видеокартой NVIDIA GeForce RTX 3050 с 4 ГБ видеопамяти, что позволяет наслаждаться потрясающей графикой и высокой производительностью в играх и приложениях. Ноутбук поставляется с предустановленной операционной системой Windows Home, гарантируя вам удобство использования и доступ ко всем необходимым программам. Великолепный синий корпус с русской раскладкой клавиатуры делает ASUS Vivobook Pro 15 M6500QC-MA060W стильным и элегантным аксессуаром для работы и развлечений. Улучшите свой опыт использования ноутбука с ASUS Vivobook Pro 15 и ощутите мощь высокотехнологичных возможностей.",
+    "price": 88899.0
+  }
+},
+{
+  "model": "catalog.productparameters",
+  "pk": 4,
+  "fields": {
+    "name": "операционная система",
+    "value": "macOS",
+    "price": 666.0,
+    "product": "28a5658e-e318-425b-848d-c9255579094b"
+  }
+},
+{
+  "model": "catalog.productparameters",
+  "pk": 5,
+  "fields": {
+    "name": "оперативная память",
+    "value": "8",
+    "price": 777.0,
+    "product": "28a5658e-e318-425b-848d-c9255579094b"
+  }
+},
+{
+  "model": "catalog.productparameters",
+  "pk": 6,
+  "fields": {
+    "name": "оперативная память",
+    "value": "16",
+    "price": 8000.0,
+    "product": "e9c47a68-5e6f-47a7-8ce3-168c95f63c98"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 4,
+  "fields": {
+    "file": "macbook_1.jpg",
+    "title": "mackbook_1",
+    "product": "28a5658e-e318-425b-848d-c9255579094b"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 5,
+  "fields": {
+    "file": "macbook_2.jpeg",
+    "title": "mackbooK_2",
+    "product": "28a5658e-e318-425b-848d-c9255579094b"
+  }
+},
+{
+  "model": "catalog.productimage",
+  "pk": 6,
+  "fields": {
+    "file": "asus.jpg",
+    "title": "asus1",
+    "product": "e9c47a68-5e6f-47a7-8ce3-168c95f63c98"
+  }
+}
+]
